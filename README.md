@@ -17,10 +17,11 @@ will be reset and starts at 0.
 Install:
 1. copy the pre-compiled file "GPS.luac" to /SCRIPTS/TELEMETRY/
 2. Rename GPS.luac to GPSc.lua 
-3. Add a new telemetry screen and select GPSc.lua
+3. create a empty text file /SCRIPTS/TELEMETRY/GPSpositions.txt 
+4. Add a new telemetry screen and select GPSc.lua
 
 
 
-NOTE: not tested  outside yet ! 
+NOTE: not tested  outside yet !
 
 ![Alt text](https://github.com/moschotto/Taranis_X9/blob/master/screenX9.PNG)
