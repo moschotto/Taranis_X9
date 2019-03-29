@@ -1,4 +1,4 @@
-# Taranis X7 GPS last positions Telemetry Screen
+# Taranis X9 GPS last positions Telemetry Screen
 
 Telemetry Widget script for Taranis x9 v0.1
 
@@ -23,4 +23,4 @@ Install:
 
 NOTE: not tested  outside yet ! 
 
-![Alt text](https://github.com/moschotto/Taranis_X9/blob/master/screenx9.png)
+![Alt text](https://github.com/moschotto/Taranis_X9/blob/master/screenX9.PNG)
