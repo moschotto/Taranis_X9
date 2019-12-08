@@ -120,7 +120,9 @@ end
 
 local function init()  
 	gpsId = getTelemetryId("GPS")
+	
 	gpssatId = getTelemetryId("Tmp2")
+	--gpssatId = getTelemetryId("Sats")]]
 end
 
 local function background()	
