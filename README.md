@@ -22,16 +22,18 @@ Install:
 
 
 Note:
-If the number of satellites won't be updated and everything else works,
-edit the line in the script "GPS.lua". 
-Remove the previous copied GPSc.lua(c) files and copy just the GPS.lua to 
-the radio.
+
+If the number of satellites won't be updated and everything else works, edit the line in the script "GPS.lua".
 
 from:
-	gpssatId = getTelemetryId("Tmp2")
-to:
-  gpssatId = getTelemetryId("Sats")
 
+gpssatId = getTelemetryId("Tmp2")
+
+to:
+
+gpssatId = getTelemetryId("Sats")
+
+Remove the previous copied GPSc.lua(c) files and copy just the GPS.lua to the radio.
 
 
 
