@@ -3,11 +3,22 @@ Telemetry Widget script for Taranis x9
 Copyright (C) by mosch   
 License GPLv2: http://www.gnu.org/licenses/gpl-2.0.html       
 
-"GPS last known postions v1.0"  
+"GPS last known postions v1.1"  
  
 Desrciption:
 
-stores GPS coordinates every second into /SCRIPTS/TELEMETRY/GPSpositions.txt and displays the last 4 GPS positions and GPS sattelite count on the telemetry screen. In case that telemetry is not available anymore (crash, power loss etc.) the screen won't be updated but still shows the last 4 postions. If 50 postions are stored, the log will be reset and starts at 0.
+stores GPS coordinates every second into /SCRIPTS/TELEMETRY/GPSpositions.txt and displays the last 4 GPS positions 
+and GPS sattelite count on the telemetry screen. In case that telemetry is not available anymore (crash, power loss etc.) 
+the screen won't be updated but still shows the last 4 postions. If 50 postions are stored, the log will be reset and 
+starts at 0.
+
+if the sattelite count always shows 0 or no value change the following line in the script:
+
+	from:
+	gpssatId = getTelemetryId("Tmp2")
+	to:
+	gpssatId = getTelemetryId("Sats")]]
+
 ################################################################################]]
 
 log_filename = "/SCRIPTS/TELEMETRY/GPSpositions.txt"
