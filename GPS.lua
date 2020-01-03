@@ -17,7 +17,7 @@ if the sattelite count always shows 0 or no value change the following line in t
 	from:
 	gpssatId = getTelemetryId("Tmp2")
 	to:
-	gpssatId = getTelemetryId("Sats")]]
+	gpssatId = getTelemetryId("Sats")
 
 ################################################################################]]
 
