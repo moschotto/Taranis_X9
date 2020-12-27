@@ -1,4 +1,4 @@
-updated scripts for 'all' radios here:
+# updated scripts for 'all' radios here:
 
 https://github.com/moschotto/OpenTX_GPS_Telemetry
 
